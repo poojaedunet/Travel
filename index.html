@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Website</title>
+        <meta chartset="utf-8">
+        <meta name="viewport content="width=device-width, initial-scale=1">
+        <!-- fontawesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- custom css -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+      
+    </head>
+    <body>
+        <header>
+            <a class="logo" href="#">Travel</a>
+            <div class="menu_toggle">
+                <span class="fa fa-bars open_menu"></span>
+            </div>
+        </header>
+        <section class="videoS_banner">
+            <video src="C:\Users\Admin\Desktop\website with video/video.mp4" muted loop autoplay></video>
+            <div class="overlay"></div>
+            <div class="text">
+                <h2>TRAVELLING AROUND THE WORLD</h2>
+                <p>Lorem ipsum dolor sit amet, conserctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitition ullamco laboris nisi ut aliboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a href="#" class="btn">Explore</a>
+                    <ul class="social">
+                        <li><a href="https://www.facebook.com/"><span class="fa fa-facebook"></span></a></li>
+                        <li><a href="https://twitter.com/"><span class="fa fa-twitter"></span></a></li>
+                        <li><a href="https://www.instagram.com/"><span class="fa fa-instagram"></span></a></li>
+                    </ul>
+            </div>
+        </section>
+        <div class="menu">
+            <div class="close_menu">
+                <span class="fa fa-close"></span>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Destination</a></li>
+                <li><a href="#">Place</a></li>
+            </ul>
+
+        </div>
+        <!--.jquery.cdn.-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script type="text/javascript">
+            $(".menu_toggle").click(function(){
+                $("body").addClass("active");
+
+            });
+        </script>
+
+    </body>
+</html>
